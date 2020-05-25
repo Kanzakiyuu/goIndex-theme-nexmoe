@@ -45,6 +45,42 @@ function init() {
 		<div id="content" class="nexmoe-item"></div>
 	 	<div id="readme_md" class="mdui-typo nexmoe-item" style="display:none; padding: 20px 0;"></div>
 	</div>
+	
+	  <style>
+.juzhong{margin:0px auto; width:500px;}
+.sidebar_wo{position:fixed;line-height:0;bottom:0px;z-index:1;}
+#leimu{left:0;-webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform: translate(-7px,7px);
+    -ms-transform: translate(-7px,7px);
+    transform: translate(-7px,7px);}
+#lamu{-webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform: translate(7px,7px);
+    -ms-transform: translate(7px,7px);
+    transform: translate(7px,7px);right:0}
+#leimu:hover{
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+}
+#lamu:hover {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+}
+@media only screen and (max-width:0px){.sidebar_wo{display:none}}
+</style>
+<div id="updown"> 
+<div class="sidebar_wo" id="leimu" style="cursor:pointer">
+<img src="https://mengxin666.github.io/img/leimu_1.png" alt="雷姆" onmouseover="this.src='https://mengxin666.github.io/img/leimu_2.png'" onmouseout="this.src='https://mengxin666.github.io/img/leimu_1.png'" id="audioBtn">
+</div>
+<div class="sidebar_wo" id="lamu" style="cursor:pointer">
+<img src="https://mengxin666.github.io/img/lamu_1.png" alt="雷姆" onmouseover="this.src='https://mengxin666.github.io/img/lamu_2.png'" onmouseout="this.src='https://mengxin666.github.io/img/lamu_1.png'" id="audioBtn">
+</div>
+<script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=15886" charset="utf-8" async=""></script><script src="https://mengxin666.github.io/js/jquery.js" type="text/javascript"></script>
+<script src="https://mengxin666.github.io/js/ud.js"></script>
+	
 </div>
 	`;
   $('body').html(html);
