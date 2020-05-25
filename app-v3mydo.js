@@ -26,7 +26,7 @@ function init() {
   var html = `
 <header class="nexmoe-nav">
 	<div class="navSize">
-			<a href="/"><img class="avatar" src="https://hk1.rbqvpn.cf/1.jpg"/></a>
+			<a href="/"><img class="avatar" src="https://github.com/Kanzakiyuu/goIndex-theme-nexmoe-mydo/blob/master/images/tou.jpg?raw=true"/></a>
 			<div class="nav_menu">
 				<ul class="menu_ul">
 					<li class="menu_li"><a href="https://h.rbqvpn.ga" target="_blank">另一个港湾</a></li>
