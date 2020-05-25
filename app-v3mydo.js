@@ -74,14 +74,17 @@ function init() {
 <div id="updown"> 
 <div class="sidebar_wo" id="leimu" style="cursor:pointer">
 <img src="https://mengxin666.github.io/img/leimu_1.png" alt="雷姆" onmouseover="this.src='https://mengxin666.github.io/img/leimu_2.png'" onmouseout="this.src='https://mengxin666.github.io/img/leimu_1.png'" id="audioBtn">
+
+	
 </div>
+
 <div class="sidebar_wo" id="lamu" style="cursor:pointer">
 <img src="https://mengxin666.github.io/img/lamu_1.png" alt="雷姆" onmouseover="this.src='https://mengxin666.github.io/img/lamu_2.png'" onmouseout="this.src='https://mengxin666.github.io/img/lamu_1.png'" id="audioBtn">
 </div>
 <script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=15886" charset="utf-8" async=""></script><script src="https://mengxin666.github.io/js/jquery.js" type="text/javascript"></script>
 <script src="https://mengxin666.github.io/js/ud.js"></script>
-	
 </div>
+
 	`;
   $('body').html(html);
 }
